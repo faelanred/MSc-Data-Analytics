@@ -1,0 +1,4 @@
+Traffic counts -> https://data.gov.ie/dataset/traffic-volumes
+Pedestrian footfall -> https://data.gov.ie/dataset/dublin-city-centre-footfall-counters
+Public lighting data -> https://data.gov.ie/dataset/dublin-city-centre-footfall-counters
+Weather Data -> https://www.met.ie/climate/available-data/historical-data
