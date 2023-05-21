@@ -1,0 +1,294 @@
+SQL DB Run a
+------------------------------------------------
+[OVERALL], RunTime(ms), 11690
+[OVERALL], Throughput(ops/sec), 85.5431993156544
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 11
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.09409751924721985
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 11
+[TOTAL_GC_TIME_%], Time(%), 0.09409751924721985
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1217.0
+[CLEANUP], MinLatency(us), 1217
+[CLEANUP], MaxLatency(us), 1217
+[CLEANUP], 95thPercentileLatency(us), 1217
+[CLEANUP], 99thPercentileLatency(us), 1217
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 10925.866
+[INSERT], MinLatency(us), 6012
+[INSERT], MaxLatency(us), 95167
+[INSERT], 95thPercentileLatency(us), 21631
+[INSERT], 99thPercentileLatency(us), 35071
+[INSERT], Return=OK, 1000
+
+mongo run a
+--------------------------------------------------
+[OVERALL], RunTime(ms), 1031
+[OVERALL], Throughput(ops/sec), 969.9321047526673
+[TOTAL_GCS_Copy], Count, 2
+[TOTAL_GC_TIME_Copy], Time(ms), 9
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.8729388942774006
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.8729388942774006
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2203.0
+[CLEANUP], MinLatency(us), 2202
+[CLEANUP], MaxLatency(us), 2203
+[CLEANUP], 95thPercentileLatency(us), 2203
+[CLEANUP], 99thPercentileLatency(us), 2203
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 539.442
+[INSERT], MinLatency(us), 115
+[INSERT], MaxLatency(us), 108799
+[INSERT], 95thPercentileLatency(us), 2036
+[INSERT], 99thPercentileLatency(us), 3729
+[INSERT], Return=OK, 1000
+
+---------------------------------------------------
+---------------------------------------------------
+
+SQL run b
+---------------------------------------------------
+[OVERALL], RunTime(ms), 11884
+[OVERALL], Throughput(ops/sec), 84.14675193537529
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 16
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.13463480309660047
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 16
+[TOTAL_GC_TIME_%], Time(%), 0.13463480309660047
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 662.0
+[CLEANUP], MinLatency(us), 662
+[CLEANUP], MaxLatency(us), 662
+[CLEANUP], 95thPercentileLatency(us), 662
+[CLEANUP], 99thPercentileLatency(us), 662
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 10763.964
+[INSERT], MinLatency(us), 5676
+[INSERT], MaxLatency(us), 244351
+[INSERT], 95thPercentileLatency(us), 21407
+[INSERT], 99thPercentileLatency(us), 38783
+[INSERT], Return=OK, 1000
+
+Mongo run b
+---------------------------------------------------
+[OVERALL], RunTime(ms), 2381
+[OVERALL], Throughput(ops/sec), 419.99160016799664
+[TOTAL_GCS_Copy], Count, 2
+[TOTAL_GC_TIME_Copy], Time(ms), 18
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.7559848803023939
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 18
+[TOTAL_GC_TIME_%], Time(%), 0.7559848803023939
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2141.0
+[CLEANUP], MinLatency(us), 2140
+[CLEANUP], MaxLatency(us), 2141
+[CLEANUP], 95thPercentileLatency(us), 2141
+[CLEANUP], 99thPercentileLatency(us), 2141
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 624.874
+[INSERT], MinLatency(us), 120
+[INSERT], MaxLatency(us), 153983
+[INSERT], 95thPercentileLatency(us), 1645
+[INSERT], 99thPercentileLatency(us), 3343
+[INSERT], Return=OK, 1000
+
+---------------------------------------------------
+---------------------------------------------------
+mongo run c
+---------------------------------------------------
+[OVERALL], RunTime(ms), 1089
+[OVERALL], Throughput(ops/sec), 918.2736455463728
+[TOTAL_GCS_Copy], Count, 2
+[TOTAL_GC_TIME_Copy], Time(ms), 9
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.8264462809917356
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.8264462809917356
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 5262.0
+[CLEANUP], MinLatency(us), 5260
+[CLEANUP], MaxLatency(us), 5263
+[CLEANUP], 95thPercentileLatency(us), 5263
+[CLEANUP], 99thPercentileLatency(us), 5263
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 536.936
+[INSERT], MinLatency(us), 102
+[INSERT], MaxLatency(us), 101631
+[INSERT], 95thPercentileLatency(us), 2012
+[INSERT], 99thPercentileLatency(us), 3633
+[INSERT], Return=OK, 1000
+
+sql run c
+-------------------------------------------------
+[OVERALL], RunTime(ms), 9874
+[OVERALL], Throughput(ops/sec), 101.27607859023699
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 18
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.18229694146242656
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 18
+[TOTAL_GC_TIME_%], Time(%), 0.18229694146242656
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1207.0
+[CLEANUP], MinLatency(us), 1207
+[CLEANUP], MaxLatency(us), 1207
+[CLEANUP], 95thPercentileLatency(us), 1207
+[CLEANUP], 99thPercentileLatency(us), 1207
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 9257.82
+[INSERT], MinLatency(us), 6020
+[INSERT], MaxLatency(us), 49535
+[INSERT], 95thPercentileLatency(us), 15167
+[INSERT], 99thPercentileLatency(us), 20063
+[INSERT], Return=OK, 1000
+
+----------------------------------------------------
+----------------------------------------------------
+
+SQL run D
+----------------------------------------------------
+[OVERALL], RunTime(ms), 10915
+[OVERALL], Throughput(ops/sec), 91.61704076958314
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 12
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.10994044892349977
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 12
+[TOTAL_GC_TIME_%], Time(%), 0.10994044892349977
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 8074.0
+[CLEANUP], MinLatency(us), 8072
+[CLEANUP], MaxLatency(us), 8075
+[CLEANUP], 95thPercentileLatency(us), 8075
+[CLEANUP], 99thPercentileLatency(us), 8075
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 9683.062
+[INSERT], MinLatency(us), 5664
+[INSERT], MaxLatency(us), 688127
+[INSERT], 95thPercentileLatency(us), 13903
+[INSERT], 99thPercentileLatency(us), 41535
+[INSERT], Return=OK, 1000
+
+Mongo run D
+----------------------------------------------------
+[OVERALL], RunTime(ms), 2112
+[OVERALL], Throughput(ops/sec), 473.4848484848485
+[TOTAL_GCS_Copy], Count, 2
+[TOTAL_GC_TIME_Copy], Time(ms), 22
+[TOTAL_GC_TIME_%_Copy], Time(%), 1.0416666666666665
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 22
+[TOTAL_GC_TIME_%], Time(%), 1.0416666666666665
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 4546.0
+[CLEANUP], MinLatency(us), 4544
+[CLEANUP], MaxLatency(us), 4547
+[CLEANUP], 95thPercentileLatency(us), 4547
+[CLEANUP], 99thPercentileLatency(us), 4547
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 1010.343
+[INSERT], MinLatency(us), 110
+[INSERT], MaxLatency(us), 177919
+[INSERT], 95thPercentileLatency(us), 4163
+[INSERT], 99thPercentileLatency(us), 7975
+[INSERT], Return=OK, 1000
+
+-----------------------------------------------------
+-----------------------------------------------------
+sql run F
+-----------------------------------------------------
+[OVERALL], RunTime(ms), 12361
+[OVERALL], Throughput(ops/sec), 80.8996035919424
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 18
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.14561928646549632
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 18
+[TOTAL_GC_TIME_%], Time(%), 0.14561928646549632
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 694.0
+[CLEANUP], MinLatency(us), 694
+[CLEANUP], MaxLatency(us), 694
+[CLEANUP], 95thPercentileLatency(us), 694
+[CLEANUP], 99thPercentileLatency(us), 694
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 10789.128
+[INSERT], MinLatency(us), 5924
+[INSERT], MaxLatency(us), 312575
+[INSERT], 95thPercentileLatency(us), 22655
+[INSERT], 99thPercentileLatency(us), 43679
+[INSERT], Return=OK, 1000
+
+mongo run F
+-------------------------------------------------------
+[OVERALL], RunTime(ms), 2250
+[OVERALL], Throughput(ops/sec), 444.44444444444446
+[TOTAL_GCS_Copy], Count, 2
+[TOTAL_GC_TIME_Copy], Time(ms), 21
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.9333333333333335
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 21
+[TOTAL_GC_TIME_%], Time(%), 0.9333333333333335
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 3735.0
+[CLEANUP], MinLatency(us), 3734
+[CLEANUP], MaxLatency(us), 3735
+[CLEANUP], 95thPercentileLatency(us), 3735
+[CLEANUP], 99thPercentileLatency(us), 3735
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 1188.213
+[INSERT], MinLatency(us), 101
+[INSERT], MaxLatency(us), 137727
+[INSERT], 95thPercentileLatency(us), 5399
+[INSERT], 99thPercentileLatency(us), 9407
+[INSERT], Return=OK, 1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
