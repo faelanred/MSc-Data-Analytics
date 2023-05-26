@@ -165,6 +165,33 @@ sql run c
 [INSERT], 99thPercentileLatency(us), 20063
 [INSERT], Return=OK, 1000
 
+cassandra c
+---------------------------------------------------
+[OVERALL], RunTime(ms), 3739
+[OVERALL], Throughput(ops/sec), 267.4511901577962
+[TOTAL_GCS_PS_Scavenge], Count, 1
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 4
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.10698047606311847
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.10698047606311847
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2225152.0
+[CLEANUP], MinLatency(us), 2224128
+[CLEANUP], MaxLatency(us), 2226175
+[CLEANUP], 95thPercentileLatency(us), 2226175
+[CLEANUP], 99thPercentileLatency(us), 2226175
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 1158.505
+[INSERT], MinLatency(us), 269
+[INSERT], MaxLatency(us), 26943
+[INSERT], 95thPercentileLatency(us), 3815
+[INSERT], 99thPercentileLatency(us), 5787
+[INSERT], Return=OK, 1000
+
 ----------------------------------------------------
 ----------------------------------------------------
 
